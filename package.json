@@ -1,0 +1,34 @@
+{
+  "name": "sharkcop-webcap",
+  "version": "1.0.0",
+  "description": "Micro Service for sharkcop AI, fetching screeshot and html",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yitteam/sharkcop-webcap.git"
+  },
+  "keywords": [
+    "ai",
+    "js"
+  ],
+  "author": "yitteam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yitteam/sharkcop-webcap/issues"
+  },
+  "homepage": "https://github.com/yitteam/sharkcop-webcap#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "node-server-screenshot": "^0.2.4",
+    "psl": "^1.8.0",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}

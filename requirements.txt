@@ -1,0 +1,3 @@
+npm install --save request request-promise
+npm i node-server-screenshot
+npm install body-parser express request
